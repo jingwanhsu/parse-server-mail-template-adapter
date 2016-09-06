@@ -1,6 +1,13 @@
 # parse-server-mail-template-adapter
 Adapter for customizing email template of parse-server
 
+## Installation
+
+Install from npm:
+    
+    npm install parse-server-mail-template-adapter --save
+    
+
 ## Configuration
     var ParseServer = require('parse-server').ParseServer;
     var SimpleSendGridAdapter = require('parse-server-sendgrid-adapter');
