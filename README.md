@@ -1,9 +1,10 @@
 # parse-server-mail-template-adapter
 Adapter for customizing email template of parse-server
 
-## Coufiguration
+## Configuration
     var ParseServer = require('parse-server').ParseServer;
     var SimpleSendGridAdapter = require('parse-server-sendgrid-adapter');
+    var MailTemplateAdapter = require('parse-server-mail-template-adapter');
 
     var api = new ParseServer({
       // ... Other necessary parameters ...
