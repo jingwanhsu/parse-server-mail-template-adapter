@@ -2,6 +2,7 @@ import fs from 'fs';
 
 let replacePlaceHolder = (text, options) => {
   return text.replace(/%email%/g, options.user.get("email"))
+            .replace(/%username%/g, options.user.get("username"))
             .replace(/%appname%/g, options.appName)
             .replace(/%link%/g, options.link);
 }
